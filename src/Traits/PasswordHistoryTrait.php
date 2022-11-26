@@ -1,8 +1,8 @@
 <?php
 
-namespace Infinitypaul\LaravelPasswordHistoryValidation\Traits;
+namespace Vinothkumar\LaravelPasswordHistoryValidation\Traits;
 
-use Infinitypaul\LaravelPasswordHistoryValidation\Models\PasswordHistory;
+use Vinothkumar\LaravelPasswordHistoryValidation\Models\PasswordHistory;
 
 trait PasswordHistoryTrait
 {

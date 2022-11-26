@@ -1,6 +1,6 @@
 <?php
 
-namespace Infinitypaul\LaravelPasswordHistoryValidation\Observers;
+namespace Vinothkumar\LaravelPasswordHistoryValidation\Observers;
 
 use Illuminate\Support\Arr;
 use Infinitypaul\LaravelPasswordHistoryValidation\Models\PasswordHistoryRepo;

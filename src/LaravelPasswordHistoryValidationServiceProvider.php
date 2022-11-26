@@ -1,10 +1,10 @@
 <?php
 
-namespace Infinitypaul\LaravelPasswordHistoryValidation;
+namespace Vinothkumar\LaravelPasswordHistoryValidation;
 
 use Illuminate\Support\ServiceProvider;
-use Infinitypaul\LaravelPasswordHistoryValidation\Console\ClearOldPasswordHistory;
-use Infinitypaul\LaravelPasswordHistoryValidation\Observers\UserObserver;
+use Vinothkumar\LaravelPasswordHistoryValidation\Console\ClearOldPasswordHistory;
+use Vinothkumar\LaravelPasswordHistoryValidation\Observers\UserObserver;
 
 class LaravelPasswordHistoryValidationServiceProvider extends ServiceProvider
 {

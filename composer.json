@@ -1,52 +1,33 @@
 {
-    "name": "infinitypaul/laravel-password-history-validation",
-    "description": "Prevent users from reusing recently used passwords",
-    "keywords": [
-        "infinitypaul",
-        "laravel-password-history-validation",
-        "laravel",
-        "password"
-    ],
-    "homepage": "https://github.com/infinitypaul/laravel-password-history-validation",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Edward Paul",
-            "email": "infinitypaul@live.com",
-            "role": "Developer"
-        }
-    ],
+    "name": "vinothkumar/laravel-password-history-validation",
+    "description": "Prevent users from reusing recently used passwords.",
     "require": {
-        "php": ">=7.1"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "php": ">=7.2"
     },
     "autoload": {
         "psr-4": {
-            "Infinitypaul\\LaravelPasswordHistoryValidation\\": "src"
+            "Vinothkumar\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Infinitypaul\\LaravelPasswordHistoryValidation\\Tests\\": "tests"
+            "Vinothkumar\\" : "src/"
         }
     },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
+    "extra": {
+        "laravel" : {
+            "providers" : "Vinothkumar\\LaravelPasswordHistoryValidation\\LaravelPasswordHistoryValidationServiceProvider"
+        }
     },
     "config": {
         "sort-packages": true
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Infinitypaul\\LaravelPasswordHistoryValidation\\LaravelPasswordHistoryValidationServiceProvider"
-            ]
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinothkumar",
+            "email": "vinothkumar@mallow-tech.com"
         }
-    }
+    ],
+    "minimum-stability": "dev"
 }

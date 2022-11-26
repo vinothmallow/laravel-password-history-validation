@@ -1,6 +1,6 @@
 <?php
 
-namespace Infinitypaul\LaravelPasswordHistoryValidation\Console;
+namespace Vinothkumar\LaravelPasswordHistoryValidation\Console;
 
 use Illuminate\Console\Command;
 
