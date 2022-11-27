@@ -1,33 +1,52 @@
 {
-    "name": "vinothkumar/laravel-password-history-validation",
-    "description": "Prevent users from reusing recently used passwords.",
+    "name": "vinothmallow/laravel-password-history-validation",
+    "description": "Prevent users from reusing recently used passwords",
+    "keywords": [
+        "vinothmallow",
+        "laravel-password-history-validation",
+        "laravel",
+        "password"
+    ],
+    "homepage": "https://github.com/vinothmallow/laravel-password-history-validation",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Edward Paul",
+            "email": "vinothmallow@live.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=4.0",
+        "phpunit/phpunit": ">=8.0"
     },
     "autoload": {
         "psr-4": {
-            "Vinothkumar\\" : "src/"
+            "VinothMallow\\LaravelPasswordHistoryValidation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vinothkumar\\" : "src/"
+            "VinothMallow\\LaravelPasswordHistoryValidation\\Tests\\": "tests"
         }
     },
-    "extra": {
-        "laravel" : {
-            "providers" : "Vinothkumar\\LaravelPasswordHistoryValidation\\LaravelPasswordHistoryValidationServiceProvider"
-        }
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
     },
     "config": {
         "sort-packages": true
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Vinothkumar",
-            "email": "vinothkumar@mallow-tech.com"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VinothMallow\\LaravelPasswordHistoryValidation\\LaravelPasswordHistoryValidationServiceProvider"
+            ]
         }
-    ],
-    "minimum-stability": "dev"
+    }
 }

@@ -4,3 +4,9 @@ docs
 vendor
 coverage
 .idea
+.editorconfig
+.travis.yml
+.styleci.yml
+.scrutinizer.yml
+.phpunit.result.cache
+

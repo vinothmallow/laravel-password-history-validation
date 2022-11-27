@@ -1,10 +1,10 @@
 <?php
 
-namespace Vinothkumar\LaravelPasswordHistoryValidation\Rules;
+namespace VinothMallow\LaravelPasswordHistoryValidation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Hash;
-use Vinothkumar\LaravelPasswordHistoryValidation\Models\PasswordHistoryRepo;
+use VinothMallow\LaravelPasswordHistoryValidation\Models\PasswordHistoryRepo;
 
 class NotFromPasswordHistory implements Rule
 {

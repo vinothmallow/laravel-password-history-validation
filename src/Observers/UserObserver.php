@@ -1,9 +1,9 @@
 <?php
 
-namespace Vinothkumar\LaravelPasswordHistoryValidation\Observers;
+namespace VinothMallow\LaravelPasswordHistoryValidation\Observers;
 
 use Illuminate\Support\Arr;
-use Infinitypaul\LaravelPasswordHistoryValidation\Models\PasswordHistoryRepo;
+use VinothMallow\LaravelPasswordHistoryValidation\Models\PasswordHistoryRepo;
 
 class UserObserver
 {
